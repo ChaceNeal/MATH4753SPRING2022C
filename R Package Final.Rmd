@@ -1,0 +1,36 @@
+---
+title: "R Package Final"
+author: "Chace Neal"
+date: "5/2/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(PackageUpdated)
+myboot2
+```
+
+```{r}
+library(PackageUpdated)
+scatterhist
+```
+
+```{r}
+library(PackageUpdated)
+mybin
+```
+
+```{r}
+library(PackageUpdated)
+mysample
+```
+
+```{r}
+library(PackageUpdated)
+FIREDAM
+```
+

@@ -1,0 +1,100 @@
+* using log directory 'E:/MATH STATS/FinalPackage/PackageUpdated.Rcheck'
+* using R version 4.1.2 (2021-11-01)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* using options '--no-manual --as-cran'
+* checking for file 'PackageUpdated/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'PackageUpdated' version '0.1.0'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... WARNING
+Found the following file with a non-portable file name:
+  R Package Final.Rmd
+These are not fully portable file names.
+See section 'Package structure' in the 'Writing R Extensions' manual.
+* checking serialization versions ... OK
+* checking whether package 'PackageUpdated' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking 'build' directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+Invalid license file pointers: LICENSE
+* checking top-level files ... NOTE
+Non-standard files/directories found at top level:
+  'FIREDAM.csv' 'R Package Final.Rmd' 'R-Package-Final.html'
+  'Rplots.pdf'
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+myboot2: warning in matrix(y, nr = n, nc = iter, byrow = TRUE): partial
+  argument match of 'nr' to 'nrow'
+myboot2: warning in matrix(y, nr = n, nc = iter, byrow = TRUE): partial
+  argument match of 'nc' to 'ncol'
+myboot2: warning in matrix(x, nr = length(x), nc = 1, byrow = TRUE):
+  partial argument match of 'nr' to 'nrow'
+myboot2: warning in matrix(x, nr = length(x), nc = 1, byrow = TRUE):
+  partial argument match of 'nc' to 'ncol'
+mybin: no visible global function definition for 'barplot'
+mybin: no visible global function definition for 'rainbow'
+myboot2: no visible global function definition for 'quantile'
+myboot2: no visible global function definition for 'hist'
+myboot2: no visible global function definition for 'abline'
+myboot2: no visible global function definition for 'segments'
+myboot2: no visible global function definition for 'text'
+scatterhist: no visible global function definition for 'layout'
+scatterhist: no visible global function definition for 'hist'
+scatterhist: no visible global function definition for 'par'
+scatterhist: no visible global function definition for 'barplot'
+scatterhist: no visible global function definition for 'mtext'
+Undefined global functions or variables:
+  abline barplot hist layout mtext par quantile rainbow segments text
+Consider adding
+  importFrom("grDevices", "rainbow")
+  importFrom("graphics", "abline", "barplot", "hist", "layout", "mtext",
+             "par", "segments", "text")
+  importFrom("stats", "quantile")
+to your NAMESPACE file.
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking LazyData ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking installed files from 'inst/doc' ... OK
+* checking files in 'vignettes' ... OK
+* checking examples ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in 'inst/doc' ... OK
+* checking re-building of vignette outputs ... OK
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 1 WARNING, 3 NOTEs
